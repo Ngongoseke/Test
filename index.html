@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ngongoseke's Family Webpage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="icon" type="image/png" href="Images/The Good Life copy.png2.png" sizes="16x16">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+       
+
+    <header>
+        <div class="container">
+            <a href="index.html">
+            <img src="Images/The Good Life.png" alt="Logo" class="Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href=".info">Contacts</a></li>
+                    <li><a href="#nyanza">Profiles</a></li>
+                    <li><a href="info.html">More</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        
+    </header>
+
+
+        <div id="Intro">
+            <h2 class="header">Welcome to the <br>Ngongoseke's Family Webpage</h2>
+            <p class="introtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic!</p>
+            <a href="#textinfo">Read more</a>
+            <a href="info.html">Contact us</a>
+        </div>
+
+
+        <section id="textinfo">
+            <p>
+                enim facilisis gravida neque convallis a 
+                cras semper auctor neque vitae tempus quam 
+                pellentesque nec nam aliquam sem et tortor 
+                consequat id porta nibh venenatis cras sed 
+                felis eget velit aliquet sagittis id consectetur 
+                purus ut faucibus pulvinar elementum integer enim 
+                neque volutpat ac tincidunt vitae semper quis lectus 
+                nulla at volutpat diam ut venenatis<span id="dots">...</span><span id="more"> tellus in metus 
+                vulputate eu scelerisque felis imperdiet proin 
+                fermentum leo vel orci porta non pulvinar neque 
+                laoreet suspendisse interdum consectetur libero 
+                id faucibus nisl tincidunt eget nullam non nisi 
+                est sit amet facilisis magna etiam tempor orci eu 
+                lobortis elementum nibh tellus molestie nunc non 
+                blandit massa enim nec dui nunc mattis enim ut tellus 
+                elementum sagittis vitae et leo duis ut diam quam nulla 
+                porttitor massa id neque aliquam vestibulum morbi blandit 
+                cursus risus at ultrices mi tempus imperdiet nulla malesuada 
+                pellentesque elit eget gravida cum sociis natoque penatibus 
+                et magnis dis parturient montes nascetur ridiculus mus 
+                mauris vitae ultricies leo integer malesuada nunc vel 
+                risus commodo viverra maecenas accumsan lacus vel facilisis 
+                volutpat est velit egestas dui id ornare arcu odio ut sem 
+                nulla pharetra diam sit amet nisl suscipit adipiscing 
+                bibendum est ultricies integer quis auctor elit sed 
+                vulputate mi sit amet mauris commodo quis imperdiet 
+                massa tincidunt nunc pulvinar sapien et ligula 
+                ullamcorper malesuada proin libero nunc consequat 
+                interdum varius sit amet mattis vulputate enim nulla 
+                aliquet porttitor lacus luctus accumsan tortor posuere 
+                ac ut consequat semper viverra nam libero justo laoreet 
+                sit amet cursus sit amet dictum sit amet justo donec enim 
+                diam vulputate ut pharetra sit amet aliquam id diam maecenas 
+                ultricies mi eget mauris pharetra et ultrices neque ornare 
+                aenean euismod elementum nisi quis eleifend quam adipiscing 
+                vitae proin sagittis nisl rhoncus mattis rhoncus urna neque 
+                viverra justo nec ultrices dui sapien eget mi proin sed libero</span>
+            </p>
+            <button type="button" id="read" onclick="read()">Read more</button>
+            <script type="text/javascript">
+                var i=0;
+                function read(){
+                    if(!i){
+                        document.getElementById("more").style.
+                            display ="inline";
+                        document.getElementById("dots").style.
+                            display ="none";
+                        document.getElementById("read").innerHTML="Read less";    
+                        i=1;
+                    }
+                    else{
+                        document.getElementById("more").style.
+                            display ="none";
+                        document.getElementById("dots").style.
+                            display ="inline";
+                        document.getElementById("read").innerHTML="Read more";    
+                        i=0;
+                    }
+                }
+            </script>
+        </section>
+
+<div class="cards">
+    <div class="card-container" id="nyanza">
+        <div class="cover-photo">
+            <img src="Images/blank-profile-picture-973460_1280.webp" class="profile">
+        </div>
+        <div class="profile-name">Nyanza Ngongoseke</div>
+        <p class="about">Lorem ipsum dolor sit amet<br>
+            consectetur, adipisicing elit. Ipsa, expedita.
+        </p>
+        <a href="info.html"><button class="smg-btn">Message</button></a>
+        <a href="nyanza.html"><button class="follow-btn">Follow</button></a>
+        <div>
+        <i class="fab fa-facebook-f"></i>  
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+
+
+    <div class="card-container">
+        <div class="cover-photo">
+            <img src="Images/blank-profile-picture-973460_1280.webp" class="profile">
+        </div>
+        <div class="profile-name">Lyuba<br> Ngongoseke</div>
+        <p class="about">Lorem ipsum dolor sit amet<br>
+            consectetur, adipisicing elit. Ipsa, expedita.
+        </p>
+        <a href="info.html"><button class="smg-btn">Message</button></a>
+        <a href="lyuba.html"><button class="follow-btn">Follow</button></a>
+        <div>
+        <i class="fab fa-facebook-f"></i>  
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+
+
+
+    <div class="card-container">
+        <div class="cover-photo">
+            <img src="Images/blank-profile-picture-973460_1280.webp" class="profile">
+        </div>
+        <div class="profile-name">Sonda<br>  Ngongoseke</div>
+        <p class="about">Lorem ipsum dolor sit amet<br>
+            consectetur, adipisicing elit. Ipsa, expedita.
+        </p>
+        <a href="info.html"><button class="smg-btn">Message</button></a>
+        <a href="sonda.html"><button class="follow-btn">Follow</button></a>
+        <div>
+        <i class="fab fa-facebook-f"></i>  
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+
+
+
+    <div class="card-container">
+        <div class="cover-photo">
+            <img src="Images/blank-profile-picture-973460_1280.webp" class="profile">
+        </div>
+        <div class="profile-name">Ina <br> Ngongoseke</div>
+        <p class="about">Lorem ipsum dolor sit amet<br>
+            consectetur, adipisicing elit. Ipsa, expedita.
+        </p>
+        <a href="info.html"><button class="smg-btn">Message</button></a>
+        <a href="ina.html"><button class="follow-btn">Follow</button></a>
+        <div>
+        <i class="fab fa-facebook-f"></i>  
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+
+
+
+    <div class="card-container">
+        <div class="cover-photo">
+            <img src="Images/blank-profile-picture-973460_1280.webp" class="profile">
+        </div>
+        <div class="profile-name">Dotto <br> Ngongoseke</div>
+        <p class="about">Lorem ipsum dolor sit amet<br>
+            consectetur, adipisicing elit. Ipsa, expedita.
+        </p>
+        <a href="info.html"><button class="smg-btn">Message</button></a>
+        <a href="dotto.html"><button class="follow-btn">Follow</button></a>
+        <div>
+        <i class="fab fa-facebook-f"></i>  
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+
+
+
+    <div class="card-container">
+        <div class="cover-photo">
+            <img src="Images/blank-profile-picture-973460_1280.webp" class="profile">
+        </div>
+        <div class="profile-name">Friends <br> & Family</div>
+        <p class="about">Lorem ipsum dolor sit amet<br>
+            consectetur, adipisicing elit. Ipsa, expedita.
+        </p>
+        <a href="info.html"><button class="smg-btn">Message</button></a>
+        <a href="friends.html"><button class="follow-btn">Follow</button></a>
+        <div>
+        <i class="fab fa-facebook-f"></i>  
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+</div>
+
+<footer>
+
+</footer>
+
+
+<!--Contact section in main page: start
+
+        <div class="contact-section">
+            <div class="contact-info">
+                <div><i class="fas fa-map-marker-alt"></i>Address,City,Country</div>
+                <div><i class="fas fa-envelope"></i>example@gmail.com</div>
+                <div><i class="fas fa-phone"></i>+00-000-0000</div>
+                <div><i class="fas fa-clock"></i>Mon - Fri</div>
+            </div>
+            <div class="contact-form">
+                <h2 id="contacts">Contact Us</h2>
+                <form class="contact" action="" method="post">
+                    <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                    <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <input type="submit" name="submit" class="send-btn" value="Send">
+                </form>
+            </div>
+        </div>
+    ^_^
+        Contact section in main page: end-->
+    </body>
+</html>
+
+
+
+
+
+
+
